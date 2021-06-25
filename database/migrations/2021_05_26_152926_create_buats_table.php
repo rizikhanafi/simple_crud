@@ -17,7 +17,7 @@ class CreateBuatsTable extends Migration
             $table->id();
             $table->String('nama');
             $table->String('alamat');
-            $table->String('no_telepon');
+            $table->String('nohp');
             $table->timestamps();
         });
     }
